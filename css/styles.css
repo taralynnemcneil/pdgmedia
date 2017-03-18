@@ -11,6 +11,60 @@ body {
 	width: 150px;
 }
 
+#about {
+	padding-bottom: 80px;
+}
+
+#staff,
+#business {
+	width: 100%;
+}
+
+#small {
+	padding-bottom: 50px;
+}
+
+#shopSmall {
+	width: 90%;
+	margin: 20px;
+}
+
+#code {
+	padding-top: 30px;
+}
+
+#code > img {
+	height: 150px;
+	width: auto;
+	padding-bottom: 50px;
+}
+
+#services {
+	background-color: #F7981A;
+	width: 100%;
+	box-shadow: 0 0 15px 3px lightslategrey;
+	padding-bottom: 50px; 
+}
+
+#services > .container > .row > .page-header > h2 {
+	font-weight: bold;
+}
+
+#services > .container > .row > .page-header > h2 > small {
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.thumbnail a>img, 
+.thumbnail>img {
+	max-height: 200px;
+	width: 100%;
+}
+
+img.color {
+	background-color: #F2A541;
+}
+
 /* ===============================================
 		Navigation
 =============================================== */
@@ -338,18 +392,6 @@ body {
     -webkit-transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
 }
-
-.thumbnail a>img, 
-.thumbnail>img {
-	max-height: 200px;
-	width: 100%;
-}
-
-img.color {
-	background-color: #F2A541;
-}
-
-
 
 /* ===============================================
 		Footer
