@@ -339,6 +339,18 @@ body {
     transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
+.thumbnail a>img, 
+.thumbnail>img {
+	max-height: 200px;
+	width: 100%;
+}
+
+img.color {
+	background-color: #F2A541;
+}
+
+
+
 /* ===============================================
 		Footer
 =============================================== */
